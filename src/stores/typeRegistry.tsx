@@ -83,7 +83,7 @@ export const TypeRegistryProvider = TypeRegistryStoreContext.Provider
 
 export const useTypeRegistryStore = <U extends unknown>(selector: (state: TypeRegistryState) => U, equalityFn?: (a: U, b: U) => boolean) => {
   const store = useContext(TypeRegistryStoreContext)
-  return useStore(store, selector, equalityFn)
+  return useStore(store, selector)
 }
 
 function matchTypeComponents<Value> (

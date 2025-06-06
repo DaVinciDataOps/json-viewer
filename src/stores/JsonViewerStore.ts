@@ -128,5 +128,5 @@ export const JsonViewerProvider = JsonViewerStoreContext.Provider
 
 export const useJsonViewerStore = <U extends unknown>(selector: (state: JsonViewerState) => U, equalityFn?: (a: U, b: U) => boolean) => {
   const store = useContext(JsonViewerStoreContext)
-  return useStore(store, selector, equalityFn)
+  return useStore(store, selector);
 }
