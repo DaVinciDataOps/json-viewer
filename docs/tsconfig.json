@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
-      "@textea/json-viewer": ["../src/index"]
+      "@wim4you/json-viewer": ["../src/index"]
     },
     "jsx": "preserve",
     "incremental": true,

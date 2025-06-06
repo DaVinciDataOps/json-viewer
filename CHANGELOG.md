@@ -298,7 +298,7 @@ For more information, check [Extend Built-in Data Types](https://viewer.textea.i
 
 ### Bug Fixes
 
-- cannot resolve `@textea/dev-kit/utils` ([#134](https://github.com/TexteaInc/json-viewer/issues/134)) ([2b7abc8](https://github.com/TexteaInc/json-viewer/commit/2b7abc8660bb8bb9e588780c34301284879c0b2a))
+- cannot resolve `@wim4you/dev-kit/utils` ([#134](https://github.com/TexteaInc/json-viewer/issues/134)) ([2b7abc8](https://github.com/TexteaInc/json-viewer/commit/2b7abc8660bb8bb9e588780c34301284879c0b2a))
 
 ## [2.12.3](https://github.com/TexteaInc/json-viewer/compare/json-viewer-v2.12.2...json-viewer-v2.12.3) (2022-12-26)
 

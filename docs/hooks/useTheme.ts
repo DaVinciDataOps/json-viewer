@@ -1,4 +1,4 @@
-import type { JsonViewerTheme } from '@textea/json-viewer'
+import type { JsonViewerTheme } from '@wim4you/json-viewer'
 import { useTheme } from 'nextra-theme-docs'
 
 export function useNextraTheme () {

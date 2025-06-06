@@ -1,8 +1,8 @@
 {
-  "name": "@textea/json-viewer",
+  "name": "@wim4you/json-viewer",
   "description": "Interactive Json Viewer, but not only a json viewer",
   "packageManager": "pnpm@10.11.1",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -48,11 +48,10 @@
     "dist"
   ],
   "scripts": {
-    "dev": "pnpm --filter \"@textea/json-viewer-docs\" run dev",
+    "dev": "pnpm --filter \"@wim4you/json-viewer-docs\" run dev",
     "test": "vitest run",
     "test:watch": "vitest",
     "coverage": "vitest run --coverage",
-    "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "lint": "npx eslint . --ext .ts,.tsx,.js,.jsx --cache --fix",

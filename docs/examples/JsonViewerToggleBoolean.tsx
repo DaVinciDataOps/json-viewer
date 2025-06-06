@@ -1,5 +1,5 @@
-import type { JsonViewerOnChange } from '@textea/json-viewer'
-import { applyValue, booleanType, defineDataType, defineEasyType, JsonViewer } from '@textea/json-viewer'
+import type { JsonViewerOnChange } from '@wim4you/json-viewer'
+import { applyValue, booleanType, defineDataType, defineEasyType, JsonViewer } from '@wim4you/json-viewer'
 import type { FC } from 'react'
 import { useCallback, useMemo, useState } from 'react'
 

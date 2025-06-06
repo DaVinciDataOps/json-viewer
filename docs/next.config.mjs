@@ -14,7 +14,7 @@ const nextConfig = {
   images: {
     domains: ['i.imgur.com', 'www.netlify.com']
   },
-  transpilePackages: ['@textea/json-viewer']
+  transpilePackages: ['@wim4you/json-viewer']
 }
 
 export default withNextra(nextConfig)

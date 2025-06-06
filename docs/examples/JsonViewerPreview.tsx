@@ -1,5 +1,5 @@
-import type { JsonViewerProps } from '@textea/json-viewer'
-import { JsonViewer } from '@textea/json-viewer'
+import type { JsonViewerProps } from '@wim4you/json-viewer'
+import { JsonViewer } from '@wim4you/json-viewer'
 import type { FC } from 'react'
 
 import { useNextraTheme } from '../hooks/useTheme'

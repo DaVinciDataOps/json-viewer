@@ -1,12 +1,12 @@
-# @textea/json-viewer
+# @wim4you/json-viewer
 
-[![npm](https://img.shields.io/npm/v/@textea/json-viewer)](https://www.npmjs.com/package/@textea/json-viewer)
-[![npm](https://img.shields.io/npm/dm/@textea/json-viewer.svg)](https://www.npmjs.com/package/@textea/json-viewer)
-[![npm](https://img.shields.io/npm/l/@textea/json-viewer)](https://github.com/TexteaInc/json-viewer/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@wim4you/json-viewer)](https://www.npmjs.com/package/@wim4you/json-viewer)
+[![npm](https://img.shields.io/npm/dm/@wim4you/json-viewer.svg)](https://www.npmjs.com/package/@wim4you/json-viewer)
+[![npm](https://img.shields.io/npm/l/@wim4you/json-viewer)](https://github.com/TexteaInc/json-viewer/blob/main/LICENSE)
 [![codecov](https://codecov.io/gh/TexteaInc/json-viewer/branch/main/graph/badge.svg?token=r32mzVhrRl)](https://codecov.io/gh/TexteaInc/json-viewer)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c2aa0ee1-979b-4512-85d2-f27e63897df0/deploy-status)](https://viewer.textea.io)
 
-`@textea/json-viewer` is a React component that can be used to view and display any kind of data, not just JSON.
+`@wim4you/json-viewer` is a React component that can be used to view and display any kind of data, not just JSON.
 
 ~~Json Viewer?~~
 **ANY Data Viewer** ✅
@@ -26,10 +26,10 @@
 
 ## Installation
 
-`@textea/json-viewer` is using [Material-UI](https://mui.com/) as the base component library, so you need to install it and its peer dependencies first.
+`@wim4you/json-viewer` is using [Material-UI](https://mui.com/) as the base component library, so you need to install it and its peer dependencies first.
 
 ```sh
-npm install @textea/json-viewer @mui/material @emotion/react @emotion/styled
+npm install @wim4you/json-viewer @mui/material @emotion/react @emotion/styled
 ```
 
 ### CDN
@@ -39,7 +39,7 @@ npm install @textea/json-viewer @mui/material @emotion/react @emotion/styled
 <html lang="en">
   <body>
     <div id="json-viewer"></div>
-    <script src="https://cdn.jsdelivr.net/npm/@textea/json-viewer@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@wim4you/json-viewer@3"></script>
     <script>
       new JsonViewer({
         value: {
@@ -56,7 +56,7 @@ npm install @textea/json-viewer @mui/material @emotion/react @emotion/styled
 Here is a basic example:
 
 ```jsx
-import { JsonViewer } from '@textea/json-viewer'
+import { JsonViewer } from '@wim4you/json-viewer'
 
 const object = {
   /* my json object */
@@ -69,7 +69,7 @@ const Component = () => <JsonViewer value={object} />
 You can define custom data types to handle data that is not supported out of the box. Here is an example of how to display an image:
 
 ```jsx
-import { JsonViewer, defineDataType } from '@textea/json-viewer'
+import { JsonViewer, defineDataType } from '@wim4you/json-viewer'
 
 const object = {
   image: 'https://i.imgur.com/1bX5QH6.jpg'

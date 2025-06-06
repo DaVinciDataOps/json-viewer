@@ -42,3 +42,4 @@ coverage
 tsconfig.tsbuildinfo
 .eslintcache
 node_modules
+/.vs

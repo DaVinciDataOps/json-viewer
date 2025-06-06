@@ -1,4 +1,4 @@
-import { defineEasyType, JsonViewer } from '@textea/json-viewer'
+import { defineEasyType, JsonViewer } from '@wim4you/json-viewer'
 import type { FC } from 'react'
 
 import { useNextraTheme } from '../hooks/useTheme'
